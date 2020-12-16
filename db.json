@@ -1,0 +1,19 @@
+{
+  "tareas": [
+    {
+      "id": 3,
+      "descripcion": "tarea de ejemplo 2",
+      "hecho": true
+    },
+    {
+      "id": 6,
+      "descripcion": "tarea de ejemplo 3",
+      "hecho": false
+    },
+    {
+      "id": 2439409162,
+      "descripcion": "Hola",
+      "hecho": false
+    }
+  ]
+}

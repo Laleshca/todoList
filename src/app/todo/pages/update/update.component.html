@@ -1,0 +1,16 @@
+<div class="form-group" >
+    <form class="example-form" >
+        <mat-form-field class="example-full-width">
+          <mat-label>Tarea</mat-label>
+          <input matInput value="{{tareaDescripcion}}">
+        </mat-form-field>
+    </form>
+    <div class="container">
+        <section class="example-section">
+            <mat-checkbox class="example-margin">Completado</mat-checkbox>
+        </section>
+    </div>
+    <div class="example-button-row">
+        <button mat-button color="primary" (click)="actualizarTarea(tareaDescripcion)">Actualizar</button>
+      </div>
+</div>
